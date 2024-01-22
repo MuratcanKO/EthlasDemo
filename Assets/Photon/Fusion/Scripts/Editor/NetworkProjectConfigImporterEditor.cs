@@ -73,8 +73,8 @@ namespace Fusion.Editor {
 
     protected override void Apply() {
       base.Apply();
-      
-      if (targets != null) {
+
+      if (assetTarget != null) {
         for (int i = 0; i < extraDataTargets.Length; ++i) {
           var importer = GetImporter(i);
           var wrapper = GetConfigWrapper(i);
