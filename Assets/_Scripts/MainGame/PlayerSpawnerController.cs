@@ -20,13 +20,7 @@ public class PlayerSpawnerController : NetworkBehaviour, IPlayerJoined, IPlayerL
 
     public override void Spawned()
     {
-        //if (Runner.IsServer)
-        //{
-        //    foreach (var item in Runner.ActivePlayers)
-        //    {
-        //        SpawnPlayer(item);
-        //    }
-        //}
+        
     }
 
     public Vector2 GetRandomSpawnPoint()
